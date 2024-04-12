@@ -4,34 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86783fbe-66d8-48e8-8e45-fe56b98f31ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/yoll/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/module2/BestByPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/module2/Guru99Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/module2/Locators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/module2/MultipleElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/module2/OrangeHRMLoginFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/module2/PracticeAccessibilityWebPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/module2/TablePractice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/module2/VerifyElementAttributes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/module2/VerifyIfDisplayedAndEnabled.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/module2/VerifyIfPresent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/module2/WebTablePractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/module2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/module2/magentoPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/module2/saucePractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/module3/DemoQAPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/module3/PracticeKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/module3/SelectDropdownPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/module3/SelectDropdownPractice2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/module3/SelectDropdownPractice3.java" afterDir="false" />
+    <list default="true" id="86783fbe-66d8-48e8-8e45-fe56b98f31ea" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testngBasics/intro/BadApproach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testngBasics/intro/BetterApproachTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testngBasics/intro/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testngBasics/intro/UnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testngBasics/practice/AssertionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +31,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/testngBasics/practice/OrangeHrmTest.java" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -65,41 +47,134 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BadApproach.executor": "Run",
     "Application.Main.executor": "Run",
     "Maven.maven-selenium-testng [test].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.AssertionTest.executor": "Run",
+    "TestNG.AssertionTest.verifyCondition.executor": "Run",
+    "TestNG.AssertionTest.verifyConditionFalse.executor": "Run",
+    "TestNG.AssertionTest.verifyEquality.executor": "Run",
+    "TestNG.BetterApproachTest.verifyLogoIsDisplayed.executor": "Run",
+    "TestNG.OrangeHrmTest.verifyLogoIsDisplayed.executor": "Run",
+    "TestNG.OrangeHrmTest.verifyPageTitle.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/michelkatimi/IdeaProjects/maven-selenium-testng-demo/src/test/java/module3",
+    "last_opened_file_path": "/Users/michelkatimi/IdeaProjects/maven-selenium-testng-demo/src/test/java/testngBasics/intro",
     "onboarding.tips.debug.path": "/Users/michelkatimi/IdeaProjects/maven-selenium-testng-demo/src/main/java/io/yoll/Main.java",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/testngBasics/intro" />
       <recent name="$PROJECT_DIR$/src/test/java/module3" />
       <recent name="$PROJECT_DIR$/src/test/java/module2" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="testngBasics.intro" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.yoll.Main" />
+  <component name="RunManager" selected="TestNG.AssertionTest.verifyEquality">
+    <configuration name="AssertionTest.verifyCondition" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="maven-selenium-testng-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.yoll.*" />
+          <option name="PATTERN" value="testngBasics.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="testngBasics.practice" />
+      <option name="MAIN_CLASS_NAME" value="testngBasics.practice.AssertionTest" />
+      <option name="METHOD_NAME" value="verifyCondition" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssertionTest.verifyConditionFalse" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="maven-selenium-testng-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testngBasics.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testngBasics.practice" />
+      <option name="MAIN_CLASS_NAME" value="testngBasics.practice.AssertionTest" />
+      <option name="METHOD_NAME" value="verifyConditionFalse" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssertionTest.verifyEquality" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="maven-selenium-testng-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testngBasics.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testngBasics.practice" />
+      <option name="MAIN_CLASS_NAME" value="testngBasics.practice.AssertionTest" />
+      <option name="METHOD_NAME" value="verifyEquality" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BetterApproachTest.verifyLogoIsDisplayed" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="maven-selenium-testng-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testngBasics.intro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testngBasics.intro" />
+      <option name="MAIN_CLASS_NAME" value="testngBasics.intro.BetterApproachTest" />
+      <option name="METHOD_NAME" value="verifyLogoIsDisplayed" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrangeHrmTest.verifyPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="maven-selenium-testng-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testngBasics.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testngBasics.practice" />
+      <option name="MAIN_CLASS_NAME" value="testngBasics.practice.OrangeHrmTest" />
+      <option name="METHOD_NAME" value="verifyPageTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="TestNG.AssertionTest.verifyEquality" />
+        <item itemvalue="TestNG.AssertionTest.verifyConditionFalse" />
+        <item itemvalue="TestNG.AssertionTest.verifyCondition" />
+        <item itemvalue="TestNG.OrangeHrmTest.verifyPageTitle" />
+        <item itemvalue="TestNG.BetterApproachTest.verifyLogoIsDisplayed" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +194,20 @@
       <option name="presentableId" value="Default" />
       <updated>1711893605335</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1712277151507</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712277151507</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
