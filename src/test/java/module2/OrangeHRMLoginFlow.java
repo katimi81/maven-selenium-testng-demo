@@ -24,6 +24,8 @@ public class OrangeHRMLoginFlow {
 
         Thread.sleep(5000);
 
+        //driver.getCurrentUrl().endsWith();
+
         String title = driver.getTitle();
         System.out.println("Page title is: " + title);
 

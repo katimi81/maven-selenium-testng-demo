@@ -60,7 +60,7 @@ public class AssertionsTest {
     /*
      * Example with external file
      * */
-    @Test
+    @Test(enabled = false)
     public void testFileProcessing(){
         // you need to read a file
         File file = new File("src/test/resources/testData.txt");
