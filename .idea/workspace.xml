@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86783fbe-66d8-48e8-8e45-fe56b98f31ea" name="Changes" comment="updates commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testngBasics/practice/OrangeHrmJobTitleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/configXml/runAddJobTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/configXml/runClasses.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/configXml/runExcludeMethod.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/configXml/runMethods.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testngBasics/practice/AdditionalAnnotationsOneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testngBasics/practice/AdditionalAnnotationsTwoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testngBasics/practice/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/configXml/additionalAnnotationa.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testngBasics/practice/HRMLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngBasics/practice/HRMLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testngBasics/homework/TestRadioButtonsFunctionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngBasics/homework/TestRadioButtonsFunctionality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testngBasics/practice/OrangeHrmJobTitleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngBasics/practice/OrangeHrmJobTitleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +33,7 @@
     <setting file="file://$PROJECT_DIR$/src/test/java/testngBasics/practice/OrangeHrmTest.java" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -45,36 +44,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BadApproach.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Maven.maven-selenium-testng [test].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG./Users/michelkatimi/IdeaProjects/maven-selenium-testng-demo/src/test/resources/configXml/runClasses.xml.executor": "Run",
-    "TestNG./Users/michelkatimi/IdeaProjects/maven-selenium-testng-demo/src/test/resources/configXml/runMethods.xml.executor": "Run",
-    "TestNG./Users/michelkatimi/IdeaProjects/maven-selenium-testng-demo/src/test/resources/configXml/testng.xml.executor": "Run",
-    "TestNG.AssertionTest.executor": "Run",
-    "TestNG.AssertionTest.verifyCondition.executor": "Run",
-    "TestNG.AssertionTest.verifyConditionFalse.executor": "Run",
-    "TestNG.AssertionTest.verifyEquality.executor": "Run",
-    "TestNG.BetterApproachTest.verifyLogoIsDisplayed.executor": "Run",
-    "TestNG.NoSeatsAvailableTest.findSeats.executor": "Run",
-    "TestNG.NoSeatsAvailableTest.verifyTitle.executor": "Run",
-    "TestNG.OrangeHrmTest.verifyLogoIsDisplayed.executor": "Run",
-    "TestNG.OrangeHrmTest.verifyPageTitle.executor": "Run",
-    "TestNG.PriorityTest.executor": "Run",
-    "TestNG.TestRadioButtonsFunctionality.isRadioButtonDisabled.executor": "Run",
-    "TestNG.TestRadioButtonsFunctionality.verifyTextIsShown.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/michelkatimi/IdeaProjects/maven-selenium-testng-demo/src/test/java/testngBasics/intro",
-    "onboarding.tips.debug.path": "/Users/michelkatimi/IdeaProjects/maven-selenium-testng-demo/src/main/java/io/yoll/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BadApproach.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.maven-selenium-testng [test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG./Users/michelkatimi/IdeaProjects/maven-selenium-testng-demo/src/test/resources/configXml/additionalAnnotationa.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/michelkatimi/IdeaProjects/maven-selenium-testng-demo/src/test/resources/configXml/runClasses.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/michelkatimi/IdeaProjects/maven-selenium-testng-demo/src/test/resources/configXml/runMethods.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/michelkatimi/IdeaProjects/maven-selenium-testng-demo/src/test/resources/configXml/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AdditionalAnnotationsTwoTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AssertionTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AssertionTest.verifyCondition.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AssertionTest.verifyConditionFalse.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AssertionTest.verifyEquality.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BetterApproachTest.verifyLogoIsDisplayed.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.NoSeatsAvailableTest.findSeats.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.NoSeatsAvailableTest.verifyTitle.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.OrangeHrmTest.verifyLogoIsDisplayed.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.OrangeHrmTest.verifyPageTitle.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PriorityTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestRadioButtonsFunctionality.isRadioButtonDisabled.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestRadioButtonsFunctionality.verifyTextIsShown.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.testngBasics.practice.AdditionalAnnotationsOneTest,test_case_one and 1 more.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/michelkatimi/IdeaProjects/maven-selenium-testng-demo/src/test/java/testngBasics/intro&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/michelkatimi/IdeaProjects/maven-selenium-testng-demo/src/main/java/io/yoll/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java/testngBasics/intro" />
@@ -85,37 +87,28 @@
       <recent name="testngBasics.intro" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/michelkatimi/IdeaProjects/maven-selenium-testng-demo/src/test/resources/configXml/runMethods.xml">
-    <configuration name="TestRadioButtonsFunctionality.isRadioButtonDisabled" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG./Users/michelkatimi/IdeaProjects/maven-selenium-testng-demo/src/test/resources/configXml/additionalAnnotationa.xml">
+    <configuration name="AdditionalAnnotationsTwoTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="maven-selenium-testng-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testngBasics.homework.*" />
+          <option name="PATTERN" value="testngBasics.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testngBasics.homework" />
-      <option name="MAIN_CLASS_NAME" value="testngBasics.homework.TestRadioButtonsFunctionality" />
-      <option name="METHOD_NAME" value="isRadioButtonDisabled" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="testngBasics.practice" />
+      <option name="MAIN_CLASS_NAME" value="testngBasics.practice.AdditionalAnnotationsTwoTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRadioButtonsFunctionality.verifyTextIsShown" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/michelkatimi/IdeaProjects/maven-selenium-testng-demo/src/test/resources/configXml/additionalAnnotationa.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="maven-selenium-testng-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testngBasics.homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testngBasics.homework" />
-      <option name="MAIN_CLASS_NAME" value="testngBasics.homework.TestRadioButtonsFunctionality" />
-      <option name="METHOD_NAME" value="verifyTextIsShown" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/configXml/additionalAnnotationa.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -142,23 +135,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/michelkatimi/IdeaProjects/maven-selenium-testng-demo/src/test/resources/configXml/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="testngBasics.practice.AdditionalAnnotationsOneTest,test_case_one and 1 more" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="maven-selenium-testng-demo" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/configXml/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="TEST_OBJECT" value="PATTERN" />
       <properties />
       <listeners />
+      <patterns>
+        <pattern testClass="testngBasics.practice.AdditionalAnnotationsOneTest,test_case_one" />
+        <pattern testClass="testngBasics.practice.AdditionalAnnotationsOneTest,test_case_two" />
+      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/michelkatimi/IdeaProjects/maven-selenium-testng-demo/src/test/resources/configXml/additionalAnnotationa.xml" />
+        <item itemvalue="TestNG.testngBasics.practice.AdditionalAnnotationsOneTest,test_case_one and 1 more" />
+        <item itemvalue="TestNG.AdditionalAnnotationsTwoTest" />
         <item itemvalue="TestNG./Users/michelkatimi/IdeaProjects/maven-selenium-testng-demo/src/test/resources/configXml/runMethods.xml" />
         <item itemvalue="TestNG./Users/michelkatimi/IdeaProjects/maven-selenium-testng-demo/src/test/resources/configXml/runClasses.xml" />
-        <item itemvalue="TestNG./Users/michelkatimi/IdeaProjects/maven-selenium-testng-demo/src/test/resources/configXml/testng.xml" />
-        <item itemvalue="TestNG.TestRadioButtonsFunctionality.isRadioButtonDisabled" />
-        <item itemvalue="TestNG.TestRadioButtonsFunctionality.verifyTextIsShown" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713487322158</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updates commit">
+      <option name="closed" value="true" />
+      <created>1713493331853</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713493331853</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

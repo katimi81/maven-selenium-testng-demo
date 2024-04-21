@@ -44,9 +44,35 @@ public class TestRadioButtonsFunctionality {
 
 
 
+//    In the third radio button selection choose Gender “Male”
+//    And choose Age “15 to 50”
+//    Click on button “Get Values”
+//    Verify value for Gender: is Male
+//    Verify value for Age: is 5 - 15
+//
+//    @Test
+//            public void verifyOutput() {
+//       // WebElement maleGenderButton = driver.findElement(By.xpath());
+//        WebElement ageSelectionButton = driver.findElement(By.xpath("//input[@value='15 - 50']"));
+//        WebElement getValuesButton = driver.findElement(By.xpath());
+//        maleGenderButton.click();
+//        ageSelectionButton.click();
+//        getValuesButton.click();
+//
+//        String expectedValueOfGender = "Male";
+//        String expectedValueOfAge = "5 -15";
+//
 
 
 
 
 
-}
+    }
+
+
+
+
+
+
+
+

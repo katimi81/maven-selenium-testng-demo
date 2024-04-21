@@ -1,3 +1,5 @@
+package testngBasics.practice;
+
 import com.github.javafaker.Faker;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -71,9 +73,9 @@ public class OrangeHrmJobTitleTest {
         // Preferably we can generate some data automatically
 
         // With Java Faker dependency we can generate mock data
-        // We just create an object from Faker and we can get random, names, cities, countries, etc..
+        // We just create an object from Faker, and we can get random, names, cities, countries, etc..
         Faker mockData = new Faker();
-        String jobTitle = mockData.job().title();;
+        String jobTitle = mockData.job().title();
         String jobDescription = mockData.chuckNorris().fact();
 
         jobTitleInputField.sendKeys(jobTitle);
